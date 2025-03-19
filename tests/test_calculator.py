@@ -8,3 +8,6 @@ def test_mull():
 
 def test_fac():
     assert fac(5) == 120
+
+def test_poww():
+    assert poww(2, 2) == 4
