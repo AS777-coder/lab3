@@ -1,4 +1,4 @@
-from calculator import summ, mull, fac
+from calculator import summ, mull, fac, poww
 
 def test_summ():
     assert summ(2, 3, 5) == 10
