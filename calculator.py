@@ -9,3 +9,6 @@ def mull(*args):
 
 def fac(x: int):
     return functools.reduce(operator.mul, [i for i in range(1, x+1)])
+
+def poww(a: int, b: int):
+    return a**b
